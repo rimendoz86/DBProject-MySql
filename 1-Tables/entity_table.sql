@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS entity_table
-CREATE TABLE entity_table ( 
+DROP TABLE IF EXISTS `entity_table`;
+CREATE TABLE `entity_table` ( 
     ID INT NOT NULL AUTO_INCREMENT,
     UserName VARCHAR(50) NOT NULL,
     ReturnKey VARCHAR(50) NOT NULL,
@@ -9,4 +9,4 @@ CREATE TABLE entity_table (
     UpdatedBy VARCHAR(50), 
     IsActive bit(1) NOT NULL DEFAULT b'1',
     PRIMARY KEY (ID)
-    )
+    );

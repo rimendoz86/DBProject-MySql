@@ -1,7 +1,8 @@
-DROP TABLE IF EXISTS entity_table
-CREATE TABLE entity_table ( 
+DROP TABLE IF EXISTS `enum_table`;
+CREATE TABLE `enum_table` ( 
     ID INT NOT NULL AUTO_INCREMENT,
     Name VARCHAR(50) NOT NULL,
     IsActive bit(1) NOT NULL DEFAULT b'1',
     PRIMARY KEY (ID)
-    )
+);
+
